@@ -246,7 +246,7 @@ async def on_message(message): #on client event - on message
 	 	 songs = open('songs.txt','r')
 	 	 songlist = songs.readlines()
 	 	 songs.close()
-	 	 await client.send_message(message.channel, 'This shit bumps!!!\n'+random.choice(songlist))
+	 	 await client.send_message(message.channel, 'This song is the jam!!!\n'+random.choice(songlist))
 
 	 elif messageInLowerCase.startswith('!addsong') and strMessageAuthor != vBotId: #command to addsong
  	 	 songlink = message.content[9:]
@@ -256,7 +256,7 @@ async def on_message(message): #on client event - on message
  	 	 	 songs = open("songs.txt", "a")
  	 	 	 songs.write('\n'+songlink)
  	 	 	 songs.close()
- 	 	 	 await client.send_message(message.channel, 'That\'s some super hot fire! Song has been added. '+vChatEmojis[4]+' '+vChatEmojis[5])
+ 	 	 	 await client.send_message(message.channel, 'That\'s a good song! Song has been added. '+vChatEmojis[4]+' '+vChatEmojis[5])
 
 	 elif messageInLowerCase.startswith('!calc') and strMessageAuthor != vBotId: #command to calculate string
 	 	 equation =  message.content[6:]
