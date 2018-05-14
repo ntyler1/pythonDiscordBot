@@ -2,7 +2,7 @@
 
 >Discord is a proprietary freeware voice-over-Internet Protocol (VoIP) application designed for gaming communities, that specializes in text and audio communication between users in a chat channel.
 
->Small basic python discord bot that joins private server. Never programmed anything in python before so the discord python API seemed like a good learning exercise.
+>Small basic python discord bot (named Curse Chat Bot) that joins private server. Never programmed anything in python before so the discord python API seemed like a good learning exercise.
 
 ### Features
 
@@ -18,10 +18,10 @@
   - !calc - calculate an equation, supported operators = +, /, -, *, %
 
 - Programmed several alerts on server/member changes
-  -name changes (includes what it was originally to what it was changed to)
-  -role changes (includes what it was originally to what it was changed to)
-  -new member joins
-  -member leaves
-  -new channel made 
-  -channel deleted
-  -channel name or description change (includes what it was originally to what it was changed to)
+  - name changes (includes what it was originally to what it was changed to)
+  - role changes (includes what it was originally to what it was changed to)
+  - new member joins
+  - member leaves
+  - new channel made 
+  - channel deleted
+  - channel name or description change (includes what it was originally to what it was changed to)
