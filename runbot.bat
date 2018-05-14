@@ -1,0 +1,1 @@
+start cmd.exe /k "py c:\users\noah\desktop\botstuff\disbot_mullets.py"
