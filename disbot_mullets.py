@@ -175,7 +175,7 @@ async def on_message(message): #on client event - on message
 								  			)
 
 	 elif (messageInLowerCase.startswith('!owner') or message.content.lower().startswith('!creator')) and strMessageAuthor != vBotId: #Command to see the owner
- 	 	 await client.send_message(message.channel, 'I was created by Mullets in his mom\'s basement. '+vChatEmojis[2])
+ 	 	 await client.send_message(message.channel, 'I was created by Noah Tyler in his mom\'s basement. '+vChatEmojis[2])
 
 	 elif messageInLowerCase.startswith('!test') and strMessageAuthor != vBotId: #test command 
 	 	 await client.send_message(message.channel, 'Running... no need to worry. '+vChatEmojis[2])
