@@ -1,8 +1,8 @@
 # Python Discord Bot
 
->Discord is a proprietary freeware voice-over-Internet Protocol (VoIP) application designed for gaming communities, that specializes in text and audio communication between users in a chat channel.
+>[Discord](https://en.wikipedia.org/wiki/Discord_(software)) is a proprietary freeware voice-over-Internet Protocol (VoIP) application designed for gaming communities, that specializes in text and audio communication between users in a chat channel.
 
->Small basic python discord bot (named Curse Chat Bot) that joins private server. Never programmed anything in python before so the discord python API seemed like a good learning exercise.
+>Small python discord bot (named Curse Chat Bot) that joins discord servers. Never programmed anything in python before so the discord python API seemed like a good learning exercise.
 
 ### Features
 
